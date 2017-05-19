@@ -1,0 +1,27 @@
+.dropdown-button{
+	background: #1565c0;
+}
+.object_center{
+	display: flex;
+	justify-content: center;
+}
+#mensajes{
+	padding-top:20px;
+}
+.responsive{
+	min-width:250px;
+}
+#align-calendar{
+	padding-left:25px;
+}
+#responsive-form{
+	min-width:400px;
+}
+#responsive-nav{
+	min-width:700px;
+}
+#text-center{
+	text-align:justify;
+	padding-left:30px;
+	padding-top:30px;
+}

@@ -1,0 +1,81 @@
+body{
+  margin:0;
+  font-family:Times;
+}
+.calendar{
+  /*position:absolute;
+  top:50%;
+  left:50%;*/
+  width:200px;
+  height:290px;
+  padding-bottom:0px;
+  /*margin-left:150px;*/
+  margin-top:20px;
+  background:#ffff;
+  /*box-shadow:0 5px 25px rgba(21, 101, 192, 1);*/
+  color:#2e70c2;
+}
+.current{
+  text-align:center;
+  background:rgba(21, 101, 192, 1);
+  color:#fff;
+  padding:20px;
+}
+.date{
+  width:100%;
+  height:45px;
+  line-height:30px;
+  font-size:20px;
+}
+.month{
+  width:100%;
+  height:20px;
+  line-height:30px;
+  font-size:15px;
+}
+/*.day{
+height:30px;
+width:100%;
+font-size:15px;
+line-height:30px;
+}*/
+.year{
+height:30px;
+width:100%;
+line-height:30px;
+font-size:20px;
+}
+.date-small{
+list-style-type:none;
+width:25px;
+height:25px;
+/*margin:5px;*/
+float:left;
+border-radius:50%;
+font-size:10px;
+line-height:20px;
+text-align:center;
+}
+.date-small:hover {
+background:rgb(191, 217, 248);
+}
+.datelist{
+padding:10px;
+height:190px;
+box-shadow:0 -25px 25px -25px rgba(16,16,16,0.5);
+}
+.today{
+background:rgb(18, 84, 161);
+color:#fff;
+}
+.today:hover{
+background:rgb(191, 217, 248);
+}
+.day-full{
+   /*z-index:1;*/
+   width:100%;
+   height:30px;
+   float:left;
+   line-height:0px;
+   text-align:center;
+}
