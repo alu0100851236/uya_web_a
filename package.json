@@ -1,0 +1,27 @@
+
+{
+  "name": "uya_web",
+  "version": "0.2.6",
+  "description": "trabajo final de la asignatura UYA",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "GLP"
+}
